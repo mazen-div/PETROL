@@ -34,10 +34,8 @@ const ProductPage = () => {
     <div>
 
       <section className="Products ">
-        <p>Products</p>
-        <p>
-          Norooz Qeshm Company distributor of Iranian and foreign engine oils
-        </p>
+        <p>Petrol Products</p>
+  
       </section>
 
       <div className="productCards ">
