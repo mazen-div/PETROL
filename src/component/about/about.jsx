@@ -19,7 +19,6 @@ const About = () => {
 <div className="aboutCard-content">
     <p style={{fontSize:"20px",fontWeight:"900"}}>{about.header}</p>
     <p>{about.content}</p>
-    <a href="#" className='readmoreBtn'>ReadMore</a>
    
 </div>
 

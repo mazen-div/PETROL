@@ -21,6 +21,7 @@ import SwiperCore, { Autoplay } from "swiper";
 import Company from "../companiesSlide/company";
 import About from "../about/about";
 import BlackHead from "../blackheader/BlackHead";
+import GalleryPage from "../gallery/GalleryPage";
 
 const Head = () => {
   SwiperCore.use([Autoplay]);
@@ -122,9 +123,10 @@ const Head = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <Search/>
+     <h1 id="tit">Our Brands ...</h1>
       <Company/>
       <About/>
+      <GalleryPage/>
     </div>
   );
 };

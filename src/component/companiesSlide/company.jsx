@@ -121,7 +121,7 @@ const Company = () => {
             </div>
             <div className="suitable-leftSide">
               <Fade left delay="1400">
-                <h2 style={{color:"blue",fontWeight:"900"
+                <h2 style={{color:"#ef7601",fontWeight:"900"
                 ,textTransform:"capitalize",
                 marginBottom:"20px"
                 }} >
@@ -130,8 +130,9 @@ const Company = () => {
                 </Fade>
                 <Fade bottom delay="1500">
                 <p style={{  marginBottom:"30px"}}>
-                Norooz Qeshm Company, considering the needs of all cars in the country, has prioritized all services to meet the needs of the Iranian market, which has made this company one of the most complete companies representing 
-                all types of Iranian and foreign engine oils. this company …
+                Euro 10 international is the fastest growing group of engine oil companies in Cairo Middle East whereas our activities are focused on Petroleum Products and espresso Coffee in Egypt.
+During the past few years, the worldwide distribution network was expanded to make sure global availability of our products.
+
                 </p>
                 </Fade>
                 <Swiper

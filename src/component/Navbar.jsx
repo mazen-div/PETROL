@@ -1,8 +1,12 @@
 import React, { useState ,useEffect} from 'react'
 import "./navbar.css"
 import {Link} from 'react-router-dom'
-import logo from './logo.png'
+import logogded from './logogded.png'
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
+import {BiPhoneCall} from 'react-icons/bi'
+import {HiOutlineMail} from 'react-icons/hi'
+import {FaFacebook} from 'react-icons/fa'
+import {AiFillTwitterCircle,AiFillInstagram} from 'react-icons/ai'
 import BlackHead from './blackheader/BlackHead'
 const Menu = () => (  
  
@@ -52,31 +56,41 @@ const Navbar = () => {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    position: 'fixed',
+    position: 'sticky',
     top: '0',
-    left: '0',
-    right: '0',
     zIndex: '999',
   };
   
  
   
   return (
-  
+    <>
+       <div className="heroHeader ">
+    <div className="mail">
+    <span><BiPhoneCall size={"24px"} style={{marginRight:"5px"}}/> <a href="tel:+201111495011" id='mail'> +201111495011</a> </span> 
+        <span><HiOutlineMail size={"23px"} style={{marginRight:"5px"}}/> <a href="mailto:info@euro10int.com" id='mail'>info@Euro10int.com</a></span>
+    </div>
+    <div className="socialIcons">
+     
+    <span>  <a href='https://www.facebook.com/'><FaFacebook  /> </a></span>
+    <span>  <a href='https://www.facebook.com/' >  <AiFillTwitterCircle /> </a></span>
+    <span>  <a href='https://www.facebook.com/' ><AiFillInstagram /> </a></span>
+
+      
+    </div>
+       </div>
     <div className="gpt3__navbar  navShadow" style={navbarStyle} >
         
       <div className="gpt3__navbar-links ">
         <div className="gpt3__navbar-links_logo">
-          <img src={logo} alt="GPT3 Logo" />
+          <img src={logogded} alt="GPT3 Logo" />
         </div>
         <div className="gpt3__navbar-links_container">
           <Menu />
         </div>
         <div className="gpt3__navbar-wrapper">
 
-          <div className="gpt3__navbar-sign">
-            <button type='button'>Eng</button>
-          </div>
+       
         
           <div className="gpt3__navbar-menu" >
             {toggleMenu
@@ -95,6 +109,7 @@ const Navbar = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

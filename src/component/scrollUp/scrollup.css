@@ -6,7 +6,7 @@
     z-index: 9999;
     cursor: pointer;
     background-color: rgb(243, 239, 255);
-    color: blue;
+    color: #ef7601;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -17,7 +17,7 @@
   }
   
   .scroll-to-top:hover {
-    background-color: rgb(7, 9, 32);
+    background-color:rgb(43, 27, 27);
   }
   
   .scroll-to-top.show {
