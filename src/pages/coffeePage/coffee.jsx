@@ -28,10 +28,8 @@ const Coffee = () => {
     <div>
 
       <section className="Products ">
-        <p>Products</p>
-        <p>
-          Norooz Qeshm Company distributor of Iranian and foreign engine oils
-        </p>
+        <p>Coffee Products</p>
+        
       </section>
 
       <div className="productCards ">

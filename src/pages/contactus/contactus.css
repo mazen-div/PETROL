@@ -1,10 +1,12 @@
 
-.Products{
+.Productscontact{
     display: flex;
     justify-content: center;
     align-items: center;
     color: #ffffff;
     flex-direction: column;
+    background-image:  linear-gradient(100deg, #271b1be7 100%, rgba(48, 25, 25, 0.774) 100%),url(./back1.jpg);
+
            background-color: #3b3b3b ;
            background-size: cover;
            -webkit-background-size: cover;
@@ -16,7 +18,7 @@
        
          
    }
-   .Products::after {
+   .Productscontact::after {
        content: "";
        width: 200%;
        height: 0;
@@ -28,7 +30,48 @@
        left: 50%;
        transform: translateX(-50%);
      }
-     .Products p:first-child{
+     .Productscontact p:first-child{
        font-size: 2.5rem;
        font-weight: bold;
+     }
+     .contactpage iframe{
+      width:600px; height:490px; border:0;
+     }
+    
+     #faceid{
+      font-size: 30px;
+     }
+     #ale{
+      margin: auto;
+      width: 500px;
+     }
+     #ales{
+      margin: auto;
+      height: 160px;
+      width: 500px;
+     }
+    #loca{
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: 100px;
+      color: #3b3b3b;
+      margin-left: 10px;
+    }
+    #par{
+      font-size: 20px;
+
+    }
+     .contactpage a{
+      font-size: 20px;
+      text-decoration: none;
+      font-weight: 100px;
+      color: #3b3b3b;
+      margin-left: 60px;
+     }
+     .contactpage a:hover{
+      text-decoration: none;
+      color: #ef7601;
+      font-size: 22px;
+      transition-duration: 3s;
+      margin-left: 100px;
      }
