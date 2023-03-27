@@ -14,11 +14,13 @@ const Coffee = () => {
     navigate('/filterproductCoffee');
   };
   useEffect(() => {
-    axios.get('https://cars-project-83013-default-rtdb.firebaseio.com/Company/Coffe.json')
+    axios.get('https://cars-project-83013-default-rtdb.firebaseio.com/company/Coffe.json')
       .then((res) => {
         console.log(res.data);
-
-        setcom(res.data)
+        if (res.data){
+          setcom(res.data)
+        }
+       
 
 
       })
@@ -35,7 +37,7 @@ const Coffee = () => {
       <div className="productCards ">
 
         {
-
+          company?
           Object.keys(company).map((keyy) => {
             let dat = company[keyy];
 
@@ -57,7 +59,7 @@ const Coffee = () => {
 
               </div>)
           })
-
+:null
         }
 
 
