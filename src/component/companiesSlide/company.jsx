@@ -13,9 +13,13 @@ import comp1 from './comp1.png'
 import comp7 from './comp7.png'
 import comp3 from './comp3.png'
 import comp4 from './comp4.png'
-
 import comp6 from './comp6.png'
 import comp5 from './comp5.png'
+import contex from './contex.png'
+import covim from './covim.png'
+import petros from './petros.png'
+import eurologo from './eurologo.png'
+
 import iran from './iran.jpg'
 import kia from  './kia.jpg'
 import toyota from './toyota.jpg'
@@ -74,27 +78,27 @@ const Company = () => {
        
         >
           <SwiperSlide className='company-slide'>
-            <img src={comp1} alt=""/>
-            <p>Petrofix</p>
+            <img src={covim} alt=""/>
+            <p>Covim</p>
 
 
 
           </SwiperSlide>
           <SwiperSlide className='company-slide'>
-            <img src={comp7} alt=""/>
-            <p>Escort</p>
+            <img src={contex} alt=""/>
+            <p>Contex</p>
 
 
-
-          </SwiperSlide>
-          <SwiperSlide className='company-slide' >
-          <img src={comp3} alt=""/>
-            <p>Pars</p>
 
           </SwiperSlide>
           <SwiperSlide className='company-slide' >
           <img src={comp5} alt=""/>
             <p>Adnoc</p>
+
+          </SwiperSlide>
+          <SwiperSlide className='company-slide' >
+          <img src={petros} alt=""/>
+            <p>petros</p>
 
           </SwiperSlide>
           <SwiperSlide className='company-slide' >
@@ -104,8 +108,8 @@ const Company = () => {
           </SwiperSlide>
 
           <SwiperSlide className='company-slide' >
-          <img src={comp4} alt=""/>
-            <p>Iranol</p>
+          <img src={eurologo} alt=""/>
+            <p>Euro 10</p>
 
           </SwiperSlide>
 

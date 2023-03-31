@@ -61,25 +61,34 @@ padding-top: 100px;
   }
 
   #slide2{
-    background-image:  linear-gradient(60deg, #0c40cfa6 50%, #0d22e0b6 100%),url(../../imgs/slide2.jpg);
+    background-image:  linear-gradient(60deg, #2c0a0ab6 50%, #00000081 100%),url(../../imgs/slide2.jpg);
     background-position: bottom bottom;
     background-size: cover;
  
   }
   #slide3{
-    background-image: linear-gradient(60deg, #0c40cfb9 50%, #0d22e083 100%),url(../../imgs/slide3.jpg);
+    background-image: linear-gradient(60deg, #2c0a0ab6 50%, #00000081 100%),url(../../imgs/slide3.jpg);
     background-position: bottom bottom;
     background-size: cover;
  
   }
   #slide4{
-    background-image: linear-gradient(60deg, #130101b6 50%, #00000027 100%),url(../../imgs/slide4.jpg);
+    background-image: linear-gradient(60deg, #2c0a0ab6 50%, #00000081 100%),url(../../imgs/slide4.jpg);
     background-position: bottom bottom;
     background-size: cover;
  
   }
+  #logobr{
+    width: 180px;
+    height: 120px;
+    margin-right: 130px;
+  }
+  #logobr2{
+    width: 180px;
+    height: 120px;
+  }
   .img1,.img2,.img3,.img4{
-    width: 400px;
+    width: 350px;
     height: 500px;
     margin-bottom: 30px;
   }

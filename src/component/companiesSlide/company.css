@@ -7,9 +7,12 @@
     background-color: #ffffff;
     font-weight: bold;
     border-radius: 20px;
-
+    width: 75%;
 }
-
+.company-slide img{
+    width: 150px;
+    height: 100px;
+}
 #companyContainer{
     margin-top: -20px;
 z-index: -20; 

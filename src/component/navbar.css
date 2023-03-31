@@ -11,6 +11,9 @@ align-items: center;
     padding: 0 40px 0 40px;
   
 }
+#sora {
+    height: 25px;
+}
 #mail {
     text-decoration: none;
     color: rgb(228, 225, 225);
@@ -146,9 +149,7 @@ body{
 z-index: 10;
 }
 .navShadow{
-
-
-
+height: 80px;
     box-shadow: rgba(138, 132, 132, 0.089) 0px 15px 25px, rgba(0, 0, 0, 0) 0px 5px 10px;}
 .gpt3__navbar-links{
     flex: 1;
@@ -163,8 +164,8 @@ z-index: 10;
 }
 
 .gpt3__navbar-links_logo img{
-    width: 200px;
-    height: 70px;
+    width: 100px;
+    height: 75px;
 }
 
 .gpt3__navbar-links_container{

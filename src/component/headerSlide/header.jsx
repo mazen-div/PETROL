@@ -8,6 +8,8 @@ import img4 from "../../imgs/img4.png";
 import icon1 from "../../imgs/icon1.png";
 import icon2 from "../../imgs/icon2.png";
 import icon4 from "../../imgs/icon4.png";
+import contex from "../../imgs/contex.png";
+import petros from "../../imgs/petros.png";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -45,9 +47,9 @@ const Head = () => {
             <div className="leftSide">
               
             <Fade left delay="1200">
-                  <img src={icon1} className="icon1" alt="" />
+                  <img src={contex} id="logobr" className="icon1" alt="" />
                   <p>
-                    Lion
+                    Contex
                     <br />
                     Lubricants
                   </p>
@@ -65,11 +67,11 @@ const Head = () => {
           <div className="slideContainer">
             <div className="leftSide">
             <Fade left delay="1200">
-                  <img src={icon2} className="icon2" alt="" />
+                  <img src={contex} id="logobr2" className="icon2" alt="" />
                   <p>
-                    Petrofix
+                    Contex
                     <br />
-                    2Stroke
+                    DEX lll
                   </p>
              </Fade>
             </div>
@@ -84,11 +86,12 @@ const Head = () => {
           <div className="slideContainer">
             <div className="leftSide">
             <Fade left delay="1200">
+            <img src={contex} id="logobr2" className="icon3" alt="" />
 
                   <p>
-                    diesel
+                    Contex
                     <br />
-                    oil
+                    Supreme
                   </p>
              </Fade>
             </div>
@@ -105,12 +108,12 @@ const Head = () => {
             <div className="leftSide">
             <Fade left delay="1200">
 
-                  <img src={icon4} className="icon4" alt="" />
+                  <img src={petros} id="logobr2" className="icon4" alt="" />
 
                   <p>
-                    Escort
+                    Petro S
                     <br />
-                    Lubricants
+                    SUPER
                   </p>
            </Fade>
             </div>

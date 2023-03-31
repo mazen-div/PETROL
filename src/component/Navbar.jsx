@@ -1,7 +1,9 @@
 import React, { useState ,useEffect} from 'react'
 import "./navbar.css"
 import {Link} from 'react-router-dom'
-import logogded from './logogded.png'
+import logogded1 from './logogded1.png'
+import eurologo2 from './eurologo2.png'
+
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri"
 import {BiPhoneCall} from 'react-icons/bi'
 import {HiOutlineMail} from 'react-icons/hi'
@@ -52,7 +54,6 @@ const Navbar = () => {
   
   const navbarStyle = {
     backgroundColor: scrollPosition > 0 ? '#fff' : 'transparent',
-    height: '65px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
@@ -83,7 +84,8 @@ const Navbar = () => {
         
       <div className="gpt3__navbar-links ">
         <div className="gpt3__navbar-links_logo">
-          <img src={logogded} alt="GPT3 Logo" />
+          <img src={logogded1} alt="GPT3 Logo" />          <img src={eurologo2} id='sora' alt="GPT3 Logo" />
+
         </div>
         <div className="gpt3__navbar-links_container">
           <Menu />
