@@ -28,7 +28,6 @@ const ProductDetails = () => {
        {data.des}
            </p>
           <p style={{marginBottom:"50px"}}>
-            <p style={{fontWeight:"bold"}}><span  style={{fontWeight:"bold" ,color:"#0773df"}}>Package :</span> 4L</p>
           </p>
           
       
