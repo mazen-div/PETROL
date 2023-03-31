@@ -16,6 +16,7 @@ import FilterCoffee from './pages/coffeePage/filterCoffee';
 import CoffeeDetails from './pages/coffeePage/coffeeDetails';
 import BlackHead from './component/blackheader/BlackHead';
 import ContactUs from './pages/contactus/ContactUs';
+import AboutUs from './component/aboutus/AboutUs';
 function App() {
   return (
     <div className="App">
@@ -33,6 +34,8 @@ function App() {
           <Route path="/filterproductCoffee" element={<FilterCoffee/>}/>
           <Route path="/coffeeDetails" element={<CoffeeDetails/>}/>
           <Route path="/contactus" element={<ContactUs/>}/>
+          <Route path="/aboutus" element={<AboutUs/>}/>
+
 
           </Routes>
           <Footer/>
