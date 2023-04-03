@@ -16,7 +16,9 @@ import comp4 from './comp4.png'
 import comp6 from './comp6.png'
 import comp5 from './comp5.png'
 import contex from './contex.png'
+import chev from './chev.png'
 import covim from './covim.png'
+import hynd from './hynd.png'
 import petros from './petros.png'
 import eurologo from './eurologo.png'
 
@@ -176,38 +178,8 @@ During the past few years, the worldwide distribution network was expanded to ma
          
         >
           <SwiperSlide className='suit-slide'>
-<img src={kia} alt=""/>
-
-
-          </SwiperSlide>
-          <SwiperSlide className='suit-slide'>
-          <img src={peug} alt=""/>
-
-
-
-          </SwiperSlide>
-          <SwiperSlide className='suit-slide' >
-          <img src={toyota} alt=""/>
-
-          </SwiperSlide>
-          <SwiperSlide className='suit-slide'>
-          <img src={peug} alt=""/>
-
-
-
-          </SwiperSlide>
-          <SwiperSlide className='suit-slide' >
-          <img src={iran} alt=""/>
-
-          </SwiperSlide>
-          <SwiperSlide className='suit-slide' >
           <img src={kia} alt=""/>
 
-          </SwiperSlide>
-          <SwiperSlide className='suit-slide'>
-          <img src={peug} alt=""/>
-
-
 
           </SwiperSlide>
           <SwiperSlide className='suit-slide'>
@@ -220,6 +192,19 @@ During the past few years, the worldwide distribution network was expanded to ma
           <img src={toyota} alt=""/>
 
           </SwiperSlide>
+
+          <SwiperSlide className='suit-slide' >
+          <img src={chev} id="soraaa" alt=""/>
+
+          </SwiperSlide>
+
+          <SwiperSlide className='suit-slide' >
+          <img src={hynd}id="soraaa" alt=""/>
+
+          </SwiperSlide>
+        
+          
+     
 
      
         

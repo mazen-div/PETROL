@@ -1,6 +1,9 @@
 import React from 'react'
 import './footer.css'
 import logo from './logo.png'
+import eurologo from './eurologo.png'
+import eurologo2 from './eurologo2.png'
+
 import {HiOutlineLocationMarker} from 'react-icons/hi'
 import {BiPhoneCall} from 'react-icons/bi'
 import { AiOutlineMail} from 'react-icons/ai'
@@ -10,7 +13,7 @@ const Footer = () => {
   return (
    <div className='footer'>
    <div className="footerContent ">
-<img src={logo} alt="" />
+   <img id="logoz" src={eurologo} alt="" />
 <p>Euro 10 international is the fastest growing group of engine oil companies in Cairo Middle East  </p>
 <p>whereas our activities are focused on Petroleum Products and espresso Coffee in Egypt.</p>
 <div className="contactIcons-footer">

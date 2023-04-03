@@ -49,7 +49,10 @@ position: relative;
 }
 .carSlide{
     z-index: -1;
-    
+}
+#soraaa{
+    width: 150px;
+    height: 150px;
 }
 .suit-slide{
     display: flex;

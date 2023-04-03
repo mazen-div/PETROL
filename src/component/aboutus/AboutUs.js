@@ -39,7 +39,7 @@ During the past few years, the worldwide distribution network was expanded to ma
         </Col>
         <Col sm={6}>
         <div id="containerAnimation" class="container-overFlowVisible" >  
-         <img class="left-to-right" src='https://i.ibb.co/1KfR3cM/back.jpg'></img>
+         <img class="left-to-right" src='https://i.ibb.co/VMQnPDC/back3.jpg'></img>
           </div>
 
 

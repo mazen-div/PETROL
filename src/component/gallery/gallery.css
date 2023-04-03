@@ -11,3 +11,7 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .gallery p{color: black;}
+
+.carousel-indicators [data-bs-target]{
+    display: none;
+}

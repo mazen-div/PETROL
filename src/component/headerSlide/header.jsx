@@ -71,7 +71,7 @@ const Head = () => {
                   <p>
                     Contex
                     <br />
-                    DEX lll
+                    DEX III
                   </p>
              </Fade>
             </div>
