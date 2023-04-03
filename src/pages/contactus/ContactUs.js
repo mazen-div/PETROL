@@ -23,6 +23,7 @@ const ContactUs = () => {
       </p>
     </section>
     <Container>
+   
       <Row>
         <Col sm={6}>
           <Alert variant="success text-center" >
@@ -61,6 +62,9 @@ const ContactUs = () => {
           <span id="faceid"> <BsPersonSquare/> <a href="https://web.whatsapp.com/send?phone=+201103830087&text=">Whatsapp: +201103830087</a> </span><br/>
           </Alert>
           </Col>
+      </Row><br/>
+      <Row>
+      <img src={"https://i.ibb.co/HGxwkYP/back3.jpg"} id='contactimg'></img>
       </Row>
       </Container>
 </div>

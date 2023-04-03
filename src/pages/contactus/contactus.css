@@ -18,6 +18,10 @@
        
          
    }
+   #contactimg{
+    width: 700px;
+    margin: auto;
+   }
    .Productscontact::after {
        content: "";
        width: 200%;
